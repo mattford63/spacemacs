@@ -40,7 +40,7 @@
     "core/libs/package-build.el"
     "core/libs/package-recipe-mode.el"
     "core/libs/package-recipe.el"
-    "core/libs/page-break-lines.el"
+    ;;"core/libs/page-break-lines.el"
     "core/libs/validate.el"
     "core/libs/quelpa.el"
     "core/libs/spinner.el")

@@ -111,7 +111,7 @@ Internal use, do not set this variable.")
   :group 'spacemacs
   :syntax-table nil
   :abbrev-table nil
-  (page-break-lines-mode)
+  ;;(page-break-lines-mode)
   (setq buffer-read-only t
         truncate-lines t)
   ;; needed to make tab work correctly in terminal
@@ -728,7 +728,7 @@ ARGS: format string arguments."
 
 (defun spacemacs-buffer/insert-page-break ()
   "Insert a page break line in spacemacs buffer."
-  (spacemacs-buffer/append "\n\n"))
+  (spacemacs-buffer/append "\n\n"))
 
 (defun spacemacs-buffer/append (msg &optional messagebuf)
   "Append MSG to spacemacs buffer.
@@ -1426,7 +1426,7 @@ If a prefix argument is given, switch to it in an other, possibly new window."
                                              80)
             spacemacs-buffer--last-width spacemacs-buffer--window-width)
       (with-current-buffer (get-buffer-create spacemacs-buffer-name)
-        (page-break-lines-mode)
+        ;;(page-break-lines-mode)
         (save-excursion
           (when (> (buffer-size) 0)
             (set 'save-line (line-number-at-pos))

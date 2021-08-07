@@ -383,9 +383,10 @@
     :mode package-menu-mode))
 
 (defun spacemacs-defaults/init-page-break-lines ()
-  (require 'page-break-lines)
-  (global-page-break-lines-mode t)
-  (spacemacs|hide-lighter page-break-lines-mode))
+  ;;(require 'page-break-lines)
+  ;;(global-page-break-lines-mode t)
+  ;; (spacemacs|hide-lighter page-break-lines-mode)
+  )
 
 (defun spacemacs-defaults/init-process-menu ()
   (evilified-state-evilify process-menu-mode process-menu-mode-map))

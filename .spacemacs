@@ -592,7 +592,7 @@ before packages are loaded."
       "Narrowed"))
   (spaceline-spacemacs-theme 'narrow)
   ;; Setup fringe widths
-  (fringe-mode '(32 . 16))
+  (fringe-mode '(8 . 8))
   (global-diff-hl-mode)
   (diff-hl-flydiff-mode '(:global t))
   ;; Org Roam config

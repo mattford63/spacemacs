@@ -1,4 +1,5 @@
 ;; -*- mode: emacs-lisp; lexical-binding: t -*-
+
 ;; This file is loaded by Spacemacs at startup.
 ;; It must be stored in your home directory.
 
@@ -77,7 +78,8 @@ This function should only modify configuration layer settings."
              shell-default-shell 'eshell)
      slack
      spell-checking
-     syntax-checking
+     (syntax-checking :variables
+                      syntax-checking-use-standard-error-navigation t)
      systemd
      terraform
      themes-megapack
